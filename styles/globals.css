@@ -2,26 +2,58 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.lighitBlur {
+  background: linear-gradient(
+    226deg,
+    rgba(255, 255, 255, 0.03) 0%,
+    rgba(255, 255, 255, 0.22) 100%
+  );
+  backdrop-filter: blur(12px);
+}
+#send {
+  color: rgba(255, 255, 255, 0.50);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  background: #383838;
+font-family: Inter;
+font-size: 14.17px;
+font-style: normal;
+font-weight: 500;
+line-height: 22.543px;
+}
+.demo {
+  animation: move;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@keyframes move {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-3600px);
   }
 }
+.square {
+  font-family: mulish;
+}
+.square:hover {
+  transform: scale(1.2);
+  transition-duration: 600ms;
+  transition-timing-function: ease;
+}
+.ats {
+  background-image: url('/images/login.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.news {
+  background-image: url('/images/newsss.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
 }
