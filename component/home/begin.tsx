@@ -3,7 +3,7 @@ import React from 'react'
 export function BeginSection() {
 
   return (
-    <div className='' style={{backgroundImage: "url(/images/luca.svg)",backgroundRepeat: 'no-repeat',
+    <div className='mt-[100px]' style={{backgroundImage: "url(/images/luca.svg)",backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover'}}>
       <div className='flex justify-evenly items-center py-[50px] flex-wrap gap-[20px]'>
         <div className='pl-[30px]'>
