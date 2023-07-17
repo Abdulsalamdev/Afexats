@@ -5,7 +5,7 @@ export function Bog() {
   return (
     <div className="flex justify-between items-center w-[90%] m-auto pt-[50px]">
       <div className="text-[#C81107] font-bold text-[20px]">ATS Updates</div>
-      <div className="flex gap-[30px] items-center">
+      <div className="hidden gap-[30px] items-center lg:flex">
         <label htmlFor="blog" className="text-[#C9C8C6] text-[12px]">
           search by:
         </label>
@@ -30,7 +30,7 @@ export function Bog() {
           <img src="/images/close-circle.svg" alt="" />
         </div>
       </div>
-      <div className="text-[#C81107] text-[16px] flex gap-[50px]">
+      <div className="text-[#C81107] text-[16px] gap-[clamp(20px,2vw,50px)] flex">
         <Link href={""}>Blogs</Link>
         <Link href={"/news"}>News</Link>
         <Link href={""}>Gallery</Link>
@@ -131,7 +131,7 @@ const blogList = [
     read: "Read more",
   },
   {
-    title: "",
+    title: "Ways Commodity Exchanges can help Food Systems in Africa",
     description:
       "Eleni Gabre-Madhin established the first commodity exchange in Africa following a famine in her home country, Ethiopia, in 2002...",
     urlA: "/images/computer.png",
@@ -141,7 +141,7 @@ const blogList = [
     read: "Read more",
   },
   {
-    title: "",
+    title: "Ways Commodity Exchanges can help Food Systems in Africa",
     description:
       "Eleni Gabre-Madhin established the first commodity exchange in Africa following a famine in her home country, Ethiopia, in 2002...",
     urlA: "/images/birthday.png",
@@ -151,7 +151,7 @@ const blogList = [
     read: "Read more",
   },
   {
-    title: "",
+    title: "Ways Commodity Exchanges can help Food Systems in Africa",
     description:
       "Eleni Gabre-Madhin established the first commodity exchange in Africa following a famine in her home country, Ethiopia, in 2002...",
     urlA: "/images/computer.png",
@@ -170,11 +170,11 @@ export function Blogs() {
       </p>
       <div className="pt-[50px] flex flex-wrap gap-[30px] justify-center">
         {blogList.map((ele) => (
-          <div key={ele.title} className="shadow-md square">
+          <div key={ele.title} className="shadow-md square flex-1">
             <img src={ele.urlA} alt="" className="w-full" />
             <div className="px-[20px] pb-[15px]">
-            <p className="text-[#2D3748] text-[20px] font-bold font-Mulish pt-[30px] w-[340px]">{ele.title}</p>
-            <p className="text-[#718096] tex-[24px] font-Mulish pb-[30px] w-[400px]">{ele.description}</p>
+            <p className="text-[#2D3748] text-[clamp(15,0.8vw,20px)] font-bold font-Mulish pt-[30px] max-w-[340px]">{ele.title}</p>
+            <p className="text-[#718096] tex-[24px] font-Mulish pb-[30px] w-[300px]">{ele.description}</p>
             <div className="flex justify-between">
               <div className="flex gap-[20px]">
                 <img src={ele.urlB} alt="" />

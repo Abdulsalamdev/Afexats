@@ -12,7 +12,7 @@ export function Atslogin() {
           >
             ATS Login
           </label>
-          <div className="flex justify-between bg-white p-[8px]">
+          <div className="flex justify-between bg-white p-[8px] flex-wrap gap-[20px]">
             <input
               type="email"
               name="ats"
@@ -44,9 +44,9 @@ export function Atslogin() {
 }
 export function Admin(){
     return(
-        <div className="ats flex justify-center">
+        <div className="atss flex justify-center">
         <div className="w-[90%] m-auto flex gap-[20px] flex-wrap">
-          <div className=" bg-[#1B1B1B] px-[20px] py-[30px] grow">
+          <div className=" bg-[#1B1B1B] px-[20px] py-[30px] flex-1">
             <label
               htmlFor="ats"
               className="text-white font-Mulish text-[32px] font-bold"
@@ -55,7 +55,7 @@ export function Admin(){
             </label>
             <div className="flex justify-between gap-[40px] flex-wrap">
                 <input type="text" name="" id="" placeholder="Enter your Username" className="grow p-[8px]"/>
-            <div className="flex bg-white p-[8px] justify-between grow">
+            <div className="flex bg-white p-[8px] justify-between grow flex-wrap gap-[20px]">
               <input
                 type="email"
                 name="ats"

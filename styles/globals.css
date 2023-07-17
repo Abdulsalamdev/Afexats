@@ -48,7 +48,12 @@ line-height: 22.543px;
   background-image: url('/images/login.png');
   background-position: center;
   background-repeat: no-repeat;
-  height: 80vh;
+  height: 90vh;
+}
+.atss {
+  background-image: url('/images/login.png');
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .news {

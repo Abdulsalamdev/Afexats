@@ -285,7 +285,7 @@ export function Private() {
       <p className="font-Mulish font-bold text-[16px] pt-[20px]">
         GOVERNING LAW
       </p>
-      <p>
+      <p className="pb-[50px]">
         These Terms shall be governed by and construed by the laws of the
         Federal Republic of Nigeria and shall be enforced therein
       </p>

@@ -2,28 +2,28 @@ import React from "react";
 
 export function ContactPage() {
   return (
-    <div className="ats ">
-      <div className="w-[90%] m-auto flex flex-col justify-center items-center gap-[20px] pt-[50px]">
+    <div className="atss ">
+      <div className="w-[90%] m-auto flex flex-col items-center gap-[20px] pt-[50px]">
         <p className="text-[#343434] text-[clamp(35px,3vw,48px)] font-Mulish font-semibold">
           <span className="bg-[#C81107] text-white pl-[5px] ">Contact</span>Us
         </p>
-        <div className="flex gap-[40px] items-center flex-wrap">
-          <form className="bg-[#FFFFFF] p-[40px] shadow-md">
+        <div className="flex gap-[20px] items-center justify-center flex-wrap">
+          <form className="bg-[#FFFFFF] p-[20px] shadow-md">
             <div className="flex flex-col gap-[30px]">
-              <div className="flex gap-[15px]">
+              <div className="flex gap-[15px] flex-wrap">
                 <input
                   type="text"
                   name=""
                   id=""
                   placeholder="Full Name"
-                  className="p-[10px] bg-[#F9FAFB] text-[#B4B4B0]"
+                  className="p-[10px] bg-[#F9FAFB] text-[#B4B4B0] flex-1"
                 />
                 <input
                   type="email"
                   name=""
                   id=""
                   placeholder="Email Address"
-                  className="p-[10px] bg-[#F9FAFB] text-[#eeeebb]"
+                  className="p-[10px] bg-[#F9FAFB] text-[#eeeebb] flex-1"
                 />
               </div>
               <input
@@ -51,7 +51,7 @@ export function ContactPage() {
             <p className="text-[Brand/black] text-[16px] font-Mulish font-bold">
               Address
             </p>
-            <p className="">
+            <p className="max-w-[400px]">
               AFEX Tech Hub. Christiana Oyinade House, Beside First Bank, Iwo
               Road, Ibadan.
             </p>

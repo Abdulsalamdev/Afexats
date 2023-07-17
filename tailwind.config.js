@@ -18,6 +18,12 @@ module.exports = {
       },
       colors: {
         'deepRed': '#DC372F',
+      },
+      screens: {
+        'sm': '500px',
+        'md': '670px',
+        'lg': '1050px',
+        'xl': '1440px',
       }
     },
   },

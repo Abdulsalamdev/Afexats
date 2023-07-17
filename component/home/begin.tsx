@@ -9,7 +9,7 @@ export function BeginSection() {
         <div className='pl-[30px]'>
           <p className='font-Mulish font-bold text-[clamp(40px,4vw,80px)] tracking-[-1.5px] leading-[70px] max-w-[375px] pb-[10px]'>Begin your tech journey</p>
           <p className='font-Mulish text-[#313131] text-[clamp(10px,2vw,15px)] font-bold pb-[30px] max-w-[360px] '>Kickstart your tech career with our AFEX Tech Star program</p>
-           <button className='font-Mulish text-[#FFFFFF] text-[16px] bg-[#C81107] py-[12px] px-[20px] rounded-[8px]'>Join Today</button>
+           <button className='font-Mulish text-[#FFFFFF] text-[16px] bg-[#C81107] py-[12px] px-[20px] rounded-[8px] square'>Join Today</button>
         </div>
         <div className='pr-[30px]'>
           <img src='images/two-man-with-laptop.png' alt="" className='w-[400px] h-[400px] square' />

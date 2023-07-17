@@ -53,7 +53,7 @@ export function FirstValue(src: object) {
         <p className="text-[#343434] font-Mulish font-bold text-[clamp(30px,2vw,40px)] pb-[10px]">
           Duration
         </p>
-        <div className="flex justify-between items-center gap-[30px]">
+        <div className="flex justify-between items-center gap-[30px] flex-wrap">
           <p className="font-Mulish text-[#343434] text-left text-[clamp(25px,1.5vw,30px)]">
             ATS is a 6 - 12 months onsite internship program that exposes
             participants with tech backgrounds to top-notch practical
@@ -65,7 +65,7 @@ export function FirstValue(src: object) {
           </div>
         </div>
       </div>
-      <div className="flex justify-between w-[90%] m-auto pb-[50px] items-center gap-[30px] ">
+      <div className="flex justify-between w-[90%] m-auto pb-[50px] items-center gap-[30px] flex-wrap">
         <img
           src="/images/learners.png"
           alt=""
@@ -85,7 +85,7 @@ export function FirstValue(src: object) {
         <p className="text-[#343434] font-Mulish font-bold text-[clamp(30px,2vw,50px)]">
           Who is Qualified?
         </p>
-        <div className="flex justify-between items-center gap-[30px]">
+        <div className="flex justify-between items-center gap-[30px] flex-wrap">
           <p className="font-Mulish text-[#343434] text-left text-[clamp(25px,1.5vw,30px)] max-w-[543px]">
             This paid internship is open to corps member, fresh graduate and
             industrial training students
