@@ -2,7 +2,7 @@ import React from "react";
 
 export function Text() {
   return (
-    <div className="flex flex-col justify-center pt-[70px] pb-[50px] text-center items-center">
+    <div className="flex flex-col justify-center pt-[70px] pb-[50px] text-center items-center mt-[100px]">
       <p className="font-Mulsh font-bold text-[clamp(35px,2.5vw,48px)] text-[#343434]">
         {" "}
         <span className=" bg-[#C81107] text-white">Our Featured </span>Courses
@@ -20,7 +20,7 @@ export function Text() {
 
 export function Short() {
   return (
-    <div className="flex flex-col justify-center pt-[70px] pb-[50px] text-center items-center">
+    <div className="flex flex-col justify-center pt-[70px] pb-[50px] text-center items-center mt-[100px]">
       <p className="font-Mulsh font-bold text-[clamp(35px,2.5vw,48px)] text-[#343434]">
         <span className=" bg-[#C81107] text-white pl-[5px]">
           Behind the scence{" "}

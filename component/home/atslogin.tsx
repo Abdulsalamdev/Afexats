@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export function Atslogin() {
   return (
-    <div className="ats flex justify-center">
+    <div className="ats flex justify-center mt-[100px]">
       <div className="w-[90%] m-auto flex gap-[20px] flex-wrap">
         <div className=" bg-[#1B1B1B] px-[20px] py-[30px] grow">
           <label
@@ -44,7 +44,7 @@ export function Atslogin() {
 }
 export function Admin(){
     return(
-        <div className="atss flex justify-center">
+        <div className="atss flex justify-center mt-[100px]">
         <div className="w-[90%] m-auto flex gap-[20px] flex-wrap">
           <div className=" bg-[#1B1B1B] px-[20px] py-[30px] flex-1">
             <label

@@ -3,7 +3,8 @@ import React from "react";
 
 export function Private() {
   return (
-    <div className="w-[90%] m-auto font-Mulish">
+   <div className="mt-[70px]">
+     <div className="w-[90%] m-auto font-Mulish">
       <p className="flex justify-center text-[clamp(35px,3vw,48px)] font-Mulish font-bold py-[70px]">
         <span className=" bg-[#C81107] text-white pl-[5px] text-[clamp(35px,3vw,48px)]">
           Privacy
@@ -290,6 +291,7 @@ export function Private() {
         Federal Republic of Nigeria and shall be enforced therein
       </p>
     </div>
+   </div>
   );
 }
 
