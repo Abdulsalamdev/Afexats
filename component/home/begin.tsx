@@ -1,4 +1,3 @@
-import { url } from 'inspector'
 import React from 'react'
 
 export function BeginSection() {
@@ -13,7 +12,7 @@ export function BeginSection() {
            <button className='font-Mulish text-[#FFFFFF] text-[16px] bg-[#C81107] py-[12px] px-[20px] rounded-[8px]'>Join Today</button>
         </div>
         <div className='pr-[30px]'>
-          <img src='images/two-man-with-laptop.png' alt="" className='w-[400px] h-[400px]' />
+          <img src='images/two-man-with-laptop.png' alt="" className='w-[400px] h-[400px] square' />
         </div>
       </div>
     </div>

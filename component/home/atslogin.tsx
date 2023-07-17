@@ -60,7 +60,7 @@ export function Admin(){
                 type="email"
                 name="ats"
                 id=""
-                className=""
+                className="grow"
                 placeholder="Enter your Password"
               />
               <button className="bg-[#E1261C] px-[25px] py-[10px] text-white font-Mulish font-bold">

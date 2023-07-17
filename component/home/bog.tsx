@@ -31,9 +31,9 @@ export function Bog() {
         </div>
       </div>
       <div className="text-[#C81107] text-[16px] flex gap-[50px]">
-        <Link href={"/readblog"}>Blogs</Link>
+        <Link href={""}>Blogs</Link>
         <Link href={"/news"}>News</Link>
-        <Link href={"/gallery"}>Gallery</Link>
+        <Link href={""}>Gallery</Link>
       </div>
     </div>
   );
