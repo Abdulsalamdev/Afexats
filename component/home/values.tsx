@@ -54,7 +54,7 @@ export function FirstValue(src: object) {
           Duration
         </p>
         <div className="flex justify-between items-center gap-[30px] flex-wrap">
-          <p className="font-Mulish text-[#343434] text-left text-[clamp(25px,1.5vw,30px)]">
+          <p className="font-Mulish text-[#343434] text-left text-[clamp(25px,1.5vw,30px)] max-w-[700px]">
             ATS is a 6 - 12 months onsite internship program that exposes
             participants with tech backgrounds to top-notch practical
             experience. It focuses on fostering competency and professionalism
